@@ -1,8 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- the theme applied to the application or activity so that the Bar would be orange
+    <style name="AppTheme"
+        parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="andritem>
+actionBarStyle">@style/MyActionBar</item>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+
+        <item name="actionBarStyle">@style/MyActionBar</item>
     </style>
 
+
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_background</item>
+
+
+        <item name="background">@color/actionbar_background</item>
+    </style>-->
+    <!-- the theme applied to the application or activity so that the tab overlies -->
+
+    <style name="AppTheme"
+        parent="@style/Theme.AppCompat">
+        <item name="android:windowActionBarOverlay">true</item>
+
+
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
 </resources>
